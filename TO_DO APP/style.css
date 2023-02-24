@@ -1,0 +1,213 @@
+/* body{
+    background: linear-gradient(90deg, black, purple, red, black);
+} */
+#main_div{
+    width: 40%;
+    height: 450px;
+   transition: 1s;
+
+}
+
+h1{
+    cursor: pointer;
+    box-shadow:0 5px 5px 0 whitesmoke inset, 0 5px 50px 0 pink,
+    0 5px 50px 0 pink inset, 0 5px 50px 0 whitesmoke ;
+    transition: 3s;
+}
+h1:hover{
+     box-shadow:0 5px 5px 0 whitesmoke inset, 0 5px 50px 0 red,
+    0 5px 50px 0 red inset, 0 5px 50px 0 whitesmoke ;
+    color: white;
+}
+input{
+    width: 280px;
+    height: 35px;
+    background: linear-gradient(90deg, black, white, gray, bisque);
+background-size: 400%;
+color: white;
+}
+
+#fron2Btn{
+    height: 40px;
+width: 90px;
+background: linear-gradient(90deg, black, gray, aqua, #ad0839);
+background-size: 400%;
+opacity: 0.1px;
+    color: white;
+}
+button{
+    height: 40px;
+width: 90px;
+margin-left: 5px;
+margin-top: 10px;
+background: linear-gradient(90deg, black, gray, aqua, #ad0839);
+background-size: 400%;
+opacity: 0.1px;
+    color: white;
+}
+#liStyle{
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body{
+    background: linear-gradient(90deg, black, white, white, black);
+
+}
+#main-input{
+    height: 60px;
+    width: 300px;
+    font-size: larger;
+    background-color: gray;
+color: white;
+border: 1px dotted gray;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+h1{
+    font-size: 52px;
+    opacity: 0.50px;
+box-shadow: 0 5px 5px 0 pink inset, 0 5px 50px 0 black,
+            0 5px 50px 0 pink inset, 0 5px 50px 0 pink;
+cursor: pointer;
+transition: 3s;
+}
+h1:hover{
+    box-shadow:0 5px 5px 0 whitesmoke inset, 0 5px 50px 0 purple,
+    0 5px 50px 0 purple inset, 0 5px 50px 0 whitesmoke ;
+    color: white;
+}
+.resultEqul{
+    background: linear-gradient(90deg, black, white, gray, bisque);
+   background-size: 400%;
+    width: 77px;
+    height: 50px;
+    margin-left: -4px;
+    position: relative;
+left: 2px;
+font-size: 20px;
+
+}
+.resultEqul:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+    opacity: 0px;
+}
+@keyframes glow {
+0%{
+    background-position: 0%;
+}
+100%{
+    background-position: 400%;
+}
+}
+
+.resultEqul:hover{
+    background: linear-gradient(90deg, black, pink, aqua, #ad0839);
+    background-size: 400%;
+}
+.child-div{
+    width: 340px;
+    height: 390px;
+    border-radius: 20px;
+    position: relative;
+    top: -10px;
+    background: linear-gradient(90deg, black, white,white, black);
+   
+}
+.child-div:hover{
+    box-shadow:0 5px 5px 0 whitesmoke inset, 0 5px 50px 0 purple,
+    0 5px 50px 0 purple inset, 0 5px 50px 0 whitesmoke ;
+
+}
+.allBlack{
+    background: linear-gradient(90deg, black, gray, aqua, #ad0839);
+background-size: 400%;
+opacity: 0.1px;
+    font-size: 20px;
+    color: white;
+width: 77px;
+height: 50px;
+margin-left: -4px;
+position: relative;
+left: 2px;
+}
+.allBlack:hover{
+    background: linear-gradient(90deg, black, white, rgb(15, 192, 192), rgb(10, 209, 140));
+background-size: 400%;
+}
+.allBlack:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+    opacity: 0px;
+}
+@keyframes glow {
+0%{
+    background-position: 0%;
+}
+100%{
+    background-position: 400%;
+}
+}
+#radius-Lft{
+    border-top-left-radius: 10px;
+
+}
+#radius-Rgt{
+    border-top-right-radius: 10px;
+
+}
+#radius-l-b{
+    border-bottom-left-radius: 10px;
+
+}
+#radius-r-b{
+    border-bottom-right-radius: 10px;
+
+}
+.blueRow{
+    opacity: 0.1px;
+    font-size: 20px;
+    color: white;
+    width: 77px;
+    height: 50px;
+background: linear-gradient(90deg, black, white, gray, bisque);
+background-size: 400%;
+    margin-left: -4px;
+    position: relative;
+left: 2px;
+transition: 5s;
+    }
+    .blueRow:hover{
+     
+   background: linear-gradient(90deg, black, gray, white, #ad0839);
+   background-size: 400%;
+   opacity: 0.1px;
+   
+    } 
+    .blueRow:hover{
+        z-index: 1;
+        animation: glow 8s linear infinite;
+        opacity: 0px;
+    }
+ @keyframes glow {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+} */
